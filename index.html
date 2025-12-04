@@ -1,0 +1,61 @@
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pixel Invaders</title>
+    <link href="https://fonts.cdnfonts.com/css/tiny5" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="score" class="hub__title">SCORE - 0 PTS</div>
+        <div class="hud__stats">
+          <span>Lives -</span>
+          <span id="lives" class="hud__lives"></span>
+        </div>
+      </header>
+
+  <section class="viewport">
+      <canvas id="game" width="900" height="620"></canvas>
+      <div id="startOverlay" class="overlay start">
+        <div class="panel start-panel">
+          <img src="assets/Logo.svg" alt="Pixel Invaders" class="logo">
+          <ul class="legend">
+            <li>
+              <img src="assets/invader_blue.svg" alt="Blue invader">
+              <span class="legend-text">10 PTS</span>
+            </li>
+            <li>
+              <img src="assets/invader_purple.svg" alt="Purple invader">
+              <span class="legend-text">20 PTS</span>
+            </li>
+            <li>
+              <img src="assets/invader_green.svg" alt="Green invader">
+              <span class="legend-text">40 PTS</span>
+            </li>
+          </ul>
+          <button id="startBtn" class="start-btn" aria-label="Start game">
+            <img src="assets/StartButton.svg" alt="Start">
+          </button>
+        </div>
+      </div>
+      <div id="gameOver" class="overlay hidden gameover">
+        <div class="panel gameover-panel">
+          <img src="assets/GameOver.png" alt="Game Over" class="gameover-img">
+          <button id="restartBtn" class="restart-btn">TRY AGAIN SOLDIER</button>
+        </div>
+      </div>
+      <div id="pauseOverlay" class="overlay hidden pause">
+        <div class="panel pause-panel">
+          <div class="pause-text">Paused</div>
+          <div class="pause-hint">Press P to resume</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
