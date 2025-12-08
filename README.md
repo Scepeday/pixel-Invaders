@@ -1,9 +1,5 @@
 # Pixel_Invaders
 
-A simple **Space Invaders–style** arcade game built with **HTML, CSS, and vanilla JavaScript only**
-
-## 🕹️ Overview
-
 You control a spaceship at the bottom of the screen and must shoot down waves of invading aliens before they reach you or the ground.  
 The game runs completely in the browser using:
 
