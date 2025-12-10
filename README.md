@@ -9,7 +9,7 @@ The game runs completely in the browser using:
 
 This project is great as an example of building a small game with **pure JS**, using only the DOM.
 
-## ✨ Features
+## Features
 
 - Player spaceship that can move left and right
 - Shoot projectiles to destroy enemies
@@ -21,7 +21,7 @@ This project is great as an example of building a small game with **pure JS**, u
 > _Note: You can customize all of these in the source code (speed, number of enemies, etc.)._
 
 
-## 🎮 Controls
+## Controls
 
 Default controls:
 
@@ -32,7 +32,7 @@ Default controls:
 You can change the keys in the JavaScript file if you prefer different controls.
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone or Download the Repository
 
